@@ -1,4 +1,4 @@
-module.exports = function querySelectorContainsElement(selector, node) {
+module.exports = function querySelectorContainsNode(selector, node) {
   var candidates = document.querySelectorAll(selector);
   var i;
   var l = candidates.length;

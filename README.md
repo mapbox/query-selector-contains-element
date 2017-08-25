@@ -1,11 +1,11 @@
-# @mapbox/query-selector-contains-element
+# @mapbox/query-selector-contains-node
 
 Check whether a DOM node is contained by any other node on the page matching a selector.
 
 ## Installation
 
 ```
-npm install @mapbox/query-selector-contains-element
+npm install @mapbox/query-selector-contains-node
 ```
 
 ## API

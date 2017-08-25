@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/query-selector-contains-element",
+  "name": "@mapbox/query-selector-contains-node",
   "version": "0.1.0",
   "description": "Check whether a node is contained by any other node on the page matching a selector",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mapbox/query-selector-contains-element.git"
+    "url": "git+https://github.com/mapbox/query-selector-contains-node.git"
   },
   "keywords": [
     "dom",
@@ -19,9 +19,9 @@
   "author": "Mapbox",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/mapbox/query-selector-contains-element/issues"
+    "url": "https://github.com/mapbox/query-selector-contains-node/issues"
   },
-  "homepage": "https://github.com/mapbox/query-selector-contains-element#readme",
+  "homepage": "https://github.com/mapbox/query-selector-contains-node#readme",
   "devDependencies": {
     "jest": "^20.0.4"
   }
