@@ -14,11 +14,23 @@ This package provides a CommonJS module, so you'll need to be using a bundler (W
 
 ### querySelectorContainsElement
 
-`querySelectorContainsElement(selector: string, node: Node): boolean`
+`querySelectorContainsElement(selector, node)`
 
-Returns `true` if any of the node's ancestors match the `selector` (a CSS selector suitable for [`document.querySelectorAll()`]).
-Also returns `true` if the node itself matches the `selector`.
+Returns `true` if any of the `node`'s ancestors match the `selector`.
+Also returns `true` if the `node` itself matches the `selector`.
 Otherwise, returns `false`.
+
+#### selector
+
+Type: `string`.
+**Required.**
+
+A CSS selector suitable for [`document.querySelectorAll()`].
+
+#### node
+
+Type: `Node`.
+**Required.**
 
 ## Example
 
