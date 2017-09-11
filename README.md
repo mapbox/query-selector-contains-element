@@ -14,9 +14,9 @@ This package provides a CommonJS module, so you'll need to be using a bundler (W
 
 ## API
 
-### querySelectorContainsElement
+### querySelectorContainsNode
 
-`querySelectorContainsElement(selector, node)`
+`querySelectorContainsNode(selector, node)`
 
 Returns `true` if any of the `node`'s ancestors match the `selector`.
 Also returns `true` if the `node` itself matches the `selector`.
