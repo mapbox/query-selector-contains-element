@@ -1,6 +1,6 @@
 # @mapbox/query-selector-contains-node
 
-[![Build Status](https://travis-ci.org/mapbox/query-selector-contains-node.svg?branch=main)](https://travis-ci.org/mapbox/query-selector-contains-node)
+[![Build Status](https://travis-ci.com/mapbox/query-selector-contains-node.svg?branch=main)](https://travis-ci.com/mapbox/query-selector-contains-node)
 
 Check whether a DOM node is contained by any other node on the page matching a selector, or matches the selector itself.
 
